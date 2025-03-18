@@ -40,6 +40,16 @@ export default function Footer() {
               <li>Email: info@buysome.com</li>
               <li>Phone: (123) 456-7890</li>
               <li>Address: 123 Fashion St.</li>
+              <li>
+                <a 
+                  href="https://github.com/Badboixixi77" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  GitHub: @badboixixi77
+                </a>
+              </li>
             </ul>
           </div>
           <div>
