@@ -12,3 +12,48 @@ body {
   color: #171717;
   background: #f9fafb;
 }
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improve image rendering */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Add container consistency */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Custom transitions */
+.custom-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Custom hover effects */
+.custom-hover {
+  @apply transform hover:scale-105 transition-transform duration-300;
+}
+
+/* Custom shadows */
+.custom-shadow {
+  @apply shadow-md hover:shadow-lg transition-shadow duration-300;
+}
+
+/* Custom animations */
+.fade-in {
+  @apply opacity-0 animate-[fadeIn_0.3s_ease-in-out_forwards];
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -14,15 +14,6 @@ const poppins = Poppins({
 export const metadata = {
   title: "BuySome - Ecommerce Store",
   description: "Your one-stop shop for electronics",
-  metadataBase: new URL('https://buysome.vercel.app'),
-  openGraph: {
-    title: 'BuySome - Ecommerce Store',
-    description: 'Your one-stop shop for electronics',
-    url: 'https://buysome.vercel.app',
-    siteName: 'BuySome',
-    locale: 'en_US',
-    type: 'website',
-  },
 };
 
 export default function RootLayout({ children }) {
@@ -32,9 +23,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Navbar />
           <main className="flex-grow">
-            <PageTransition>
-              {children}
-            </PageTransition>
+            {children}
           </main>
           <Footer />
         </Providers>
