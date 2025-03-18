@@ -10,30 +10,61 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Customer Service</h3>
+            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Contact Us</li>
-              <li>Shipping Policy</li>
-              <li>Returns & Exchanges</li>
-              <li>FAQs</li>
+              <li>
+                <a href="/products" className="hover:text-blue-400 transition-colors">
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="hover:text-blue-400 transition-colors">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="hover:text-blue-400 transition-colors">
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a href="/faq" className="hover:text-blue-400 transition-colors">
+                  FAQ
+                </a>
+              </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>New Arrivals</li>
-              <li>Best Sellers</li>
-              <li>Sale</li>
-              <li>Blog</li>
+              <li>Email: info@buysome.com</li>
+              <li>Phone: (123) 456-7890</li>
+              <li>Address: 123 Fashion St.</li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Twitter</li>
-              <li>Pinterest</li>
+              <li>
+                <a 
+                  href="https://instagram.com/badboixixi" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://twitter.com/badboixixi" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  Twitter
+                </a>
+              </li>
             </ul>
           </div>
         </div>
